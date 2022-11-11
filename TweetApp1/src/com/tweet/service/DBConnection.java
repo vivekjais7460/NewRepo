@@ -13,7 +13,7 @@ public class DBConnection {
             //get connection
             String url="jdbc:mysql://localhost:3306/tweetapp?useSSL=false";
             String username="root";
-            String password="Start@7460";
+            String password="pass@word1";
            con= DriverManager.getConnection(url,username,password);
 
         }catch (Exception ex){
